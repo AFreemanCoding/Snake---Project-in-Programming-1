@@ -1,0 +1,19 @@
+Jeg har utviklet et eget visuelt tema med inspirasjon fra undervann og sjøslanger, hvor jeg har laget en mer detaljert grafisk visning av spillet med vannbakgrunn, 
+bobler og egne tegninger for slangehode, kropp, hale og fisk. Slangen skal representere the yellow bellied snake (Hydrophis Platurus). 
+
+For å gjøre koden mer strukturert og oversiktlig har jeg delt programmet i to filer, en for spillogikk og en for visning, 
+og i tillegg delt opp visningskoden i egne hjelpefunksjoner for bedre lesbarhet.
+
+Jeg har også implementert en startskjerm med bilde som skaleres automatisk til vindusstørrelsen ved hjelp av PIL (Image og ImageTk). 
+For å finne riktig path/sti til bildet brukte jeg os.path, (https://docs.python.org/3/library/os.path.html). 
+
+Videre har jeg lagt til mulighet for å velge vanskelighetsgrad før spillet starter, hvor hastigheten til slangen justeres basert på valg. 
+
+Over spillet vises en teller som holder oversikt over hvor mange fisk spilleren har spist, 
+og jeg har laget en egen game over skjerm med grafikk i stedet for kun tekst.  
+
+Spillet har også støtte for informasjonsmodus til bruk under utvikling, samt mulighet for å starte på nytt etter game over.
+
+Noen funksjonsnavn er beholdt fra oppgaveteksten for å sikre at de kjører med testene, selv om spillet bruker fisk i stedet for epler.
+
+
